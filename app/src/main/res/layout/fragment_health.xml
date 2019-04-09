@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.HealthFragment"
+    android:orientation="vertical">
+
+
+
+
+    <ImageView
+        android:id="@+id/health_image"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+
+        android:src="@drawable/health" />
+
+    <TextView
+        android:id="@+id/health_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_below="@+id/health_image"
+        android:textColor="@color/colorPrimary"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Sağlıklı Olmak İçin 5 İpucu" />
+
+    <TextView
+        android:id="@+id/health_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Çoğu insan bir sorun olmadıkça kalp sağlığına yeteri kadar önem vermiyor. Ancak kardiyovasküler hastalıklara yakalanma riskini azaltmak, kolesterol düzeylerini dengede tutmak ve tansiyon yüksekliğinin önüne geçmek kalp sağlığını korumada hayati önem taşır. Ülkemizde ölüm nedeni istatistiklerine göre 2014 yılındaki ölümlerin %40,4’ü dolaşım sistemi hastalıkları nedeniyle gerçekleşti. Dolaşım sistemi hastalıkları kaynaklı ölümlerin ise, %39,6’sı iskemik kalp hastalığından (kalp kasının çeşitli nedenlere bağlı olarak beslenememesi), %24,7’si ise serebro-vasküler hastalıktan (beyni besleyen damarlarda tıkanma veya sorunların oluşması) meydana geldi (TÜİK, Ölüm Nedeni İstatistikleri, 2014). " />
+</LinearLayout>
